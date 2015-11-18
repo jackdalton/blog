@@ -4,10 +4,10 @@
     <title>Blog</title>
     <description>Here, I write about random tech subjects.
 </description>
-    <link>http://blog.jackdalton.org//</link>
-    <atom:link href="http://blog.jackdalton.org//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 18 Nov 2015 02:25:16 +0000</pubDate>
-    <lastBuildDate>Wed, 18 Nov 2015 02:25:16 +0000</lastBuildDate>
+    <link>http://jackdalton.org/blog/</link>
+    <atom:link href="http://jackdalton.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 18 Nov 2015 02:23:56 +0000</pubDate>
+    <lastBuildDate>Wed, 18 Nov 2015 02:23:56 +0000</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -19,8 +19,8 @@
 &lt;p&gt;Until then, I’ll see you later.&lt;/p&gt;
 </description>
         <pubDate>Tue, 17 Nov 2015 18:53:14 +0000</pubDate>
-        <link>http://blog.jackdalton.org//non-tech/2015/11/17/hello-world.html</link>
-        <guid isPermaLink="true">http://blog.jackdalton.org//non-tech/2015/11/17/hello-world.html</guid>
+        <link>http://jackdalton.org/blog/non-tech/2015/11/17/hello-world.html</link>
+        <guid isPermaLink="true">http://jackdalton.org/blog/non-tech/2015/11/17/hello-world.html</guid>
         
         
         <category>non-tech</category>
@@ -46,8 +46,8 @@
 &lt;p&gt;I had a sprite extension in the works, but until I sort this out it’s not getting anywhere.&lt;/p&gt;
 </description>
         <pubDate>Tue, 17 Nov 2015 18:53:14 +0000</pubDate>
-        <link>http://blog.jackdalton.org//javascript/programming/2015/11/17/engine2d.html</link>
-        <guid isPermaLink="true">http://blog.jackdalton.org//javascript/programming/2015/11/17/engine2d.html</guid>
+        <link>http://jackdalton.org/blog/javascript/programming/2015/11/17/engine2d.html</link>
+        <guid isPermaLink="true">http://jackdalton.org/blog/javascript/programming/2015/11/17/engine2d.html</guid>
         
         
         <category>javascript</category>

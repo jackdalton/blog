@@ -2,8 +2,8 @@ title: Blog
 email: jack@jackdalton.org
 description: >
   Here, I write about random tech subjects.
-baseurl: "/"
-url: "http://blog.jackdalton.org"
+baseurl: "/blog"
+url: "http://jackdalton.org"
 #twitter_username: I never really liked Twitter.
 github_username:  jackdalton
 markdown: kramdown
