@@ -6,8 +6,8 @@
 </description>
     <link>http://jackdalton.org/blog/</link>
     <atom:link href="http://jackdalton.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 18 Nov 2015 02:08:04 +0000</pubDate>
-    <lastBuildDate>Wed, 18 Nov 2015 02:08:04 +0000</lastBuildDate>
+    <pubDate>Wed, 18 Nov 2015 02:23:56 +0000</pubDate>
+    <lastBuildDate>Wed, 18 Nov 2015 02:23:56 +0000</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -24,6 +24,35 @@
         
         
         <category>non-tech</category>
+        
+      </item>
+    
+      <item>
+        <title>Engine2D</title>
+        <description>&lt;p&gt;Over the course of the past couple of weeks I’ve been doing a lot of work on my &lt;a href=&quot;https://github.com/jackdalton/engine2d&quot;&gt;Engine2D&lt;/a&gt; game engine. Everything had been going pretty well.&lt;/p&gt;
+
+&lt;p&gt;I was quite satisfied with how easy it is to write extensions, like a &lt;a href=&quot;https://github.com/jackdalton/engine2d/blob/master/extensions/engine2d.deltatime.js&quot;&gt;time delta extension&lt;/a&gt;, or a &lt;a href=&quot;https://github.com/jackdalton/engine2d/blob/master/extensions/engine2d.sound.js&quot;&gt;sound player extension&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;When I started work on this, I had planned to just make the bare minimum, not forcing the user to use canvas rendering, or WebGL. I figured people could write their own extensions, and just share them with others.&lt;/p&gt;
+
+&lt;p&gt;But, I’ve run in to a bit of a problem: &lt;strong&gt;How can extensions be aware of each other&lt;/strong&gt;?&lt;/p&gt;
+
+&lt;p&gt;After some consideration, I’ve realized that an extension which would add a new object type would need to be recognized by, for example, another object type extension.&lt;/p&gt;
+
+&lt;p&gt;If both extensions registered as &lt;code&gt;Engine2D.TYPE.TRIANGLE&lt;/code&gt;, we’d have a bit of a problem.&lt;/p&gt;
+
+&lt;p&gt;This issue has really derailed Engine2D’s extension development.&lt;/p&gt;
+
+&lt;p&gt;I had a sprite extension in the works, but until I sort this out it’s not getting anywhere.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 17 Nov 2015 18:53:14 +0000</pubDate>
+        <link>http://jackdalton.org/blog/javascript/programming/2015/11/17/engine2d.html</link>
+        <guid isPermaLink="true">http://jackdalton.org/blog/javascript/programming/2015/11/17/engine2d.html</guid>
+        
+        
+        <category>javascript</category>
+        
+        <category>programming</category>
         
       </item>
     
