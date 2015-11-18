@@ -7,3 +7,8 @@ url: "http://jackdalton.org"
 #twitter_username: I never really liked Twitter.
 github_username:  jackdalton
 markdown: kramdown
+author_gravatar: b0a7242d4a083a7724a37c633184deb1
+author_name: Jack Dalton
+author_email: jack@jackdalton.org
+include: [ "robots.txt" ]
+timezone: America/Denver
