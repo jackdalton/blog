@@ -1,60 +1,43 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Blog</title>
-    <description>Here, I write about random tech subjects.
-</description>
-    <link>http://jackdalton.org/blog/</link>
-    <atom:link href="http://jackdalton.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 18 Nov 2015 02:35:41 +0000</pubDate>
-    <lastBuildDate>Wed, 18 Nov 2015 02:35:41 +0000</lastBuildDate>
-    <generator>Jekyll v2.4.0</generator>
-    
-      <item>
-        <title>Engine2D</title>
-        <description>&lt;p&gt;Over the course of the past couple of weeks I’ve been doing a lot of work on my &lt;a href=&quot;https://github.com/jackdalton/engine2d&quot;&gt;Engine2D&lt;/a&gt; game engine. Everything had been going pretty well.&lt;/p&gt;
+--- layout: null ---
 
-&lt;p&gt;I was quite satisfied with how easy it is to write extensions, like a &lt;a href=&quot;https://github.com/jackdalton/engine2d/blob/master/extensions/engine2d.deltatime.js&quot;&gt;time delta extension&lt;/a&gt;, or a &lt;a href=&quot;https://github.com/jackdalton/engine2d/blob/master/extensions/engine2d.sound.js&quot;&gt;sound player extension&lt;/a&gt;.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" ?>
+<feed xmlns="http://www.w3.org/2005/Atom">
 
-&lt;p&gt;When I started work on this, I had planned to just make the bare minimum, not forcing the user to use canvas rendering, or WebGL. I figured people could write their own extensions, and just share them with others.&lt;/p&gt;
+  <title>{{ site.title | xml_escape }}</title>
+  <subtitle>{{ site.description | xml_escape }}</subtitle>
+  <link href="{{ site.baseurl }}/" rel="alternate"/>
+  <link /feed.xml" }}" href="{{ site.baseurl | append: " rel="self"/>
+  <rights>Copyright @
+    {{ site.time | date: '%Y' }},
+    {{ site.author_name | xml_escape }}</rights>
+  <icon>{{ site.baseurl }}/assets/favicon.png</icon>
 
-&lt;p&gt;But, I’ve run in to a bit of a problem: &lt;strong&gt;How can extensions be aware of each other&lt;/strong&gt;?&lt;/p&gt;
+  <author>
+    <name>{{ site.author_name | xml_escape }}</name>
+    <email>{{ site.author_email | xml_escape }}</email>
+    <uri>https://twitter.com/{{ site.twitter_username }}</uri>
+  </author>
 
-&lt;p&gt;After some consideration, I’ve realized that an extension which would add a new object type would need to be recognized by, for example, another object type extension.&lt;/p&gt;
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>{{ site.baseurl }}/</id>
+  <generator version="{{ jekyll.version }}">Jekyll</generator>
 
-&lt;p&gt;If both extensions registered as &lt;code&gt;Engine2D.TYPE.TRIANGLE&lt;/code&gt;, we’d have a bit of a problem.&lt;/p&gt;
+  {% for post in site.posts limit:40 %}
 
-&lt;p&gt;This issue has really derailed Engine2D’s extension development.&lt;/p&gt;
+  {% assign content = post.content | replace: "&#8617;", "&#8617;&#xfe0e;" %}
+  {% assign content = content | replace: "data-lang", "lang" %}
+  {% assign content = content | replace: "<mark>", "<b>" | replace: "</mark>", "</b>" %}
 
-&lt;p&gt;I had a sprite extension in the works, but until I sort this out it’s not getting anywhere.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 17 Nov 2015 19:35:04 +0000</pubDate>
-        <link>http://jackdalton.org/blog/javascript/programming/2015/11/17/engine2d.html</link>
-        <guid isPermaLink="true">http://jackdalton.org/blog/javascript/programming/2015/11/17/engine2d.html</guid>
-        
-        
-        <category>javascript</category>
-        
-        <category>programming</category>
-        
-      </item>
-    
-      <item>
-        <title>Hello, World!</title>
-        <description>&lt;p&gt;Well, here’s my first post. I’m not sure exactly what’ll be here in the future.&lt;/p&gt;
+  <entry>
+    <title type="html">{{ post.title | xml_escape }}</title>
+    <id>{{ post.url | prepend: site.baseurl }}</id>
+    <updated>{{ post.updated | date_to_xmlschema }}</updated>
+    <published>{{ post.path | truncate: 20 | replace: "...", "" | replace: "_posts/", "" }}T10:00:00+02:00</published>
+    <content type="html" xml:lang="en">
+      <![CDATA[{{ content }}]]>
+    </content>
+  </entry>
 
-&lt;p&gt;I suppose only time will tell.&lt;/p&gt;
+  {% endfor %}
 
-&lt;p&gt;Until then, I’ll see you later.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 17 Nov 2015 18:53:14 +0000</pubDate>
-        <link>http://jackdalton.org/blog/non-tech/2015/11/17/hello-world.html</link>
-        <guid isPermaLink="true">http://jackdalton.org/blog/non-tech/2015/11/17/hello-world.html</guid>
-        
-        
-        <category>non-tech</category>
-        
-      </item>
-    
-  </channel>
-</rss>
+</feed>
