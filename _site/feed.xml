@@ -6,26 +6,9 @@
 </description>
     <link>http://jackdalton.org/blog/</link>
     <atom:link href="http://jackdalton.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 18 Nov 2015 02:34:30 +0000</pubDate>
-    <lastBuildDate>Wed, 18 Nov 2015 02:34:30 +0000</lastBuildDate>
+    <pubDate>Wed, 18 Nov 2015 02:35:41 +0000</pubDate>
+    <lastBuildDate>Wed, 18 Nov 2015 02:35:41 +0000</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
-    
-      <item>
-        <title>Hello, World!</title>
-        <description>&lt;p&gt;Well, here’s my first post. I’m not sure exactly what’ll be here in the future.&lt;/p&gt;
-
-&lt;p&gt;I suppose only time will tell.&lt;/p&gt;
-
-&lt;p&gt;Until then, I’ll see you later.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 17 Nov 2015 18:53:14 +0000</pubDate>
-        <link>http://jackdalton.org/blog/non-tech/2015/11/17/hello-world.html</link>
-        <guid isPermaLink="true">http://jackdalton.org/blog/non-tech/2015/11/17/hello-world.html</guid>
-        
-        
-        <category>non-tech</category>
-        
-      </item>
     
       <item>
         <title>Engine2D</title>
@@ -45,7 +28,7 @@
 
 &lt;p&gt;I had a sprite extension in the works, but until I sort this out it’s not getting anywhere.&lt;/p&gt;
 </description>
-        <pubDate>Tue, 17 Nov 2015 18:53:14 +0000</pubDate>
+        <pubDate>Tue, 17 Nov 2015 19:35:04 +0000</pubDate>
         <link>http://jackdalton.org/blog/javascript/programming/2015/11/17/engine2d.html</link>
         <guid isPermaLink="true">http://jackdalton.org/blog/javascript/programming/2015/11/17/engine2d.html</guid>
         
@@ -53,6 +36,23 @@
         <category>javascript</category>
         
         <category>programming</category>
+        
+      </item>
+    
+      <item>
+        <title>Hello, World!</title>
+        <description>&lt;p&gt;Well, here’s my first post. I’m not sure exactly what’ll be here in the future.&lt;/p&gt;
+
+&lt;p&gt;I suppose only time will tell.&lt;/p&gt;
+
+&lt;p&gt;Until then, I’ll see you later.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 17 Nov 2015 18:53:14 +0000</pubDate>
+        <link>http://jackdalton.org/blog/non-tech/2015/11/17/hello-world.html</link>
+        <guid isPermaLink="true">http://jackdalton.org/blog/non-tech/2015/11/17/hello-world.html</guid>
+        
+        
+        <category>non-tech</category>
         
       </item>
     
