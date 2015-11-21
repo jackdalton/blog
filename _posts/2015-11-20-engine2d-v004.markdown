@@ -9,4 +9,4 @@ So, today I released [Engine2D v0.0.4](https://github.com/jackdalton/engine2d/re
 
 This update added the [`Engine2D.nextAvailableTypeAddress`](http://jackdalton.org/engine2d/main/Engine2D.html#.nextAvailableTypeAddress) member to the [`Engine2D` namespace](http://jackdalton.org/engine2d/main/Engine2D.html).
 
-It returns, well, the next available type address. This is really only useful to anyone developing a custom type extension.
+Obviously, it returns the next available type address. This is really only useful to anyone developing a custom type extension.
