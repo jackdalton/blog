@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Engine2D"
+title: "Engine2D Devblog Kickoff"
 date: 2015-11-17 19:35:4
-categories: javascript programming
+categories: javascript,engine2d
 ---
 
 Over the course of the past couple of weeks I've been doing a lot of work on my [Engine2D](https://github.com/jackdalton/engine2d) game engine. Everything had been going pretty well.

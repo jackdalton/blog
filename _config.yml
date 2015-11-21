@@ -1,7 +1,7 @@
-title: Blog
+title: Engine2D Devblog
 email: jack@jackdalton.org
 description: >
-  Here, I write about random tech subjects.
+  Engine2D game engine development blog.
 baseurl: "/blog"
 url: "http://jackdalton.org"
 #twitter_username: I never really liked Twitter.

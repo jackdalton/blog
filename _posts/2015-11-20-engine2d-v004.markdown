@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Engine2D v0.0.4"
+date: 2015-11-20 19:57:37
+categories: engine2d,javascript
+---
+
+So, today I released [Engine2D v0.0.4](https://github.com/jackdalton/engine2d/releases/tag/v1.0.4).
+
+This update added the [`Engine2D.nextAvailableTypeAddress`](http://jackdalton.org/engine2d/main/Engine2D.html#.nextAvailableTypeAddress) member to the [`Engine2D` namespace](http://jackdalton.org/engine2d/main/Engine2D.html).
+
+It returns, well, the next available type address. This is really only useful to anyone developing a custom type extension.
