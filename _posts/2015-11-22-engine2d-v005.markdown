@@ -1,0 +1,24 @@
+---
+layout: post
+title: "Engine2D v0.0.5"
+date: 2015-11-22 07:16:31
+categories: engine2d,javascript
+---
+
+With this update, I added some more setters to the `Engine2D.Vector2` class: `Vector2.setX`, and `Vector2.setY`.
+
+I figured the old way would get annoying when you're only changing one axis.
+
+For example:
+
+```javascript
+var pos = new Engine2D.Vector2(0, 0);
+pos.setPos(new Vector2(1, 0));
+```
+
+Now, we can do:
+
+```javascript
+var pos = new Engine2D.Vector2(0, 0);
+pos.setX(1);
+```
