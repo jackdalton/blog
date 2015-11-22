@@ -13,6 +13,7 @@ For example:
 
 ```javascript
 var pos = new Engine2D.Vector2(0, 0);
+
 pos.setPos(new Vector2(1, 0));
 ```
 
@@ -20,5 +21,6 @@ Now, we can do:
 
 ```javascript
 var pos = new Engine2D.Vector2(0, 0);
+
 pos.setX(1);
 ```
