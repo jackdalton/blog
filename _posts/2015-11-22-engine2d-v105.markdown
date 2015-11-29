@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Engine2D v0.0.5"
+title: "Engine2D v1.0.5"
 date: 2015-11-22 07:16:31
 categories: engine2d,javascript
 ---
