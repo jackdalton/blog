@@ -1,0 +1,10 @@
+---
+layout: post
+title: "A Break From Development"
+date: 2015-12-1 20:54:51
+categories: engine2d,javascript
+---
+
+I'll be taking a break from regular development of Engine2D to work on [WhitestormJS](https://github.com/sasha240100/WhitestormJS) with [Alexander Buzin](https://github.com/sasha240100) for a while.
+
+I'll return to this project some day. Until then, [*you* can contribute too](https://github.com/jackdalton/engine2d/issues/new).
