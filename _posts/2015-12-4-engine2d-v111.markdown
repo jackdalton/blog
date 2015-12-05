@@ -1,0 +1,10 @@
+---
+layout: post
+title: "Engine2D v1.1.1"
+date: 2015-12-4 23:09:56
+categories: engine2d,javascript
+---
+
+With [v1.1.1](https://github.com/jackdalton/engine2d/releases/tag/v1.1.1), the `author` option has been added to the `option` parameter passed in `Engine2D.registerExtension`.
+
+This value will be logged when the given extensions loads.
