@@ -1,0 +1,14 @@
+---
+layout: post
+title: "Engine2D v1.1.0"
+date: 2015-12-4 22:55:27
+categories: engine2d,javascript
+---
+
+With [v1.1.0](https://github.com/jackdalton/engine2d/releases/tag/v1.1.0) comes a fairly large update.
+
+I added an extension registrar, which allows for extensions to have versions and names. These versions and names are logged to the console on each of their initializations.
+
+Thankfully, this update doesn't effect existing extensions since previous extensions were, essentially, made behind Engine2D's back. We used to just declare a prototype of existing constructors, define new constructors, etc.
+
+This update pretty much makes Engine2D aware of extensions.
