@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Welcome to the Engine2D devblog, where updates and possible future directions are discussed.
+Welcome to the [Engine2D](https://github.com/jackdalton/engine2d) devblog, where updates and possible future directions are discussed.
 
 Documentation is available [here](http://jackdalton.org/engine2d/main/index.html).
 
