@@ -1,0 +1,10 @@
+---
+layout: post
+title: "Engine2D v1.1.2"
+date: 2015-12-6 15:44:23
+categories: engine2d,javascript
+---
+
+With [v1.1.2](https://github.com/jackdalton/engine2d/releases/tag/v1.1.2), `Engine2D.registerExtension` returns the ID of the newly generated extension.
+
+This lets us access extensions directly through `Engine2D.EXTENSIONS[<id>]`.
