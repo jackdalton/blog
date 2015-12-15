@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Engine2D v2.0.0"
+date: 2015-12-15 10:51:38
+categories: engine2d,javascript
+---
+
+In [v2.0.0](https://github.com/jackdalton/engine2d/releases/tag/v2.0.0), I implemented some of [@Noctisdark](https://github.com/Noctisdark/)'s [changes to the `Engine2D.Vector2` constructor](https://github.com/jackdalton/engine2d/commit/7f991200dd12e26be53a4fb76594ce6044dd9c35#diff-34ff19827c317a6fc9863097acaaa26dR27).
